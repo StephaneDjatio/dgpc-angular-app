@@ -1,7 +1,7 @@
 <div id="menu-header">
     <ul>
-        <li><a href="#">Compte</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/login">Compte</a></li>
+        <li><a href="/contact">Contact</a></li>
         <li><a href="/documentation">Documentation</a></li>
     </ul>
 </div>
@@ -259,6 +259,7 @@
             <div class="leaflet-control-container">
                 <div class="leaflet-control other-map-options">
                     <div class="other-map-options-toolbar leaflet-bar">
+                        <a class="refresh tooltipped" data-position="bottom"  data-tooltip="Actualiser la carte" (click)="openLegend()"></a>
                         <a class="legend tooltipped" data-position="bottom"  data-tooltip="Légende" (click)="openLegend()"></a>
                         <a class="print tooltipped" data-position="bottom"  data-tooltip="Imprimer" (click)="printMap()"></a>
                         <a href="#" class="share tooltipped" data-position="bottom"  data-tooltip="Partager"></a>

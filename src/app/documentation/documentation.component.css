@@ -1,0 +1,40 @@
+.card .card-image {
+    height: 180px;
+}
+
+.card img {
+    height: 180px;
+    padding: 10px;
+}
+
+.sidenav-open {
+    margin-right: 800px;
+}
+
+#document-detail-nav {
+    width: 800px !important;
+}
+
+#document-detail-nav .sidenav-close-btn {
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgba(95, 144, 15, 0.85);
+}
+
+#document-detail-nav #sidenav-title {
+    background-color: rgba(95, 144, 15, 0.85);
+    color: #ffffff;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#document-detail-nav #sidenav-title h5{
+    font-size: 17px !important;
+}
+
+.documentation-content {
+    transition: margin-right 0.1s;
+    /* margin-right: 0;  */
+}

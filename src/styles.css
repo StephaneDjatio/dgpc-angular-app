@@ -1,6 +1,6 @@
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #f3f2f2; }
 
 #menu-header {
     height: 30px;
@@ -441,6 +441,19 @@ header, main, footer {
 
 .other-map-options-toolbar .legend::before {
     content: 'format_list_bulleted'; 
+    font-family: 'Material Icons';
+    font-size: 25px; /* Adjust size as needed */
+    color: #ffffff; /* Change the color if needed */
+    display: block;
+    line-height: 40px; /* Center the icon vertically */
+}
+
+.other-map-options-toolbar .refresh {
+    background: none;
+}
+
+.other-map-options-toolbar .refresh::before {
+    content: 'refresh'; 
     font-family: 'Material Icons';
     font-size: 25px; /* Adjust size as needed */
     color: #ffffff; /* Change the color if needed */

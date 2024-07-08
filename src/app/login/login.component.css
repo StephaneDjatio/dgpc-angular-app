@@ -1,0 +1,29 @@
+.login {
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.login h5 {
+    text-align: center;
+    color: rgb(69, 67, 67);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: italic;
+}
+
+.login .password-forgot {
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.login .btn {
+    background-color: rgba(95, 144, 15, 0.85);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.login .register-form {
+    font-style: italic;
+}
